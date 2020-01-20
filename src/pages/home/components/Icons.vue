@@ -30,39 +30,39 @@ export default {
         id: '0001',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
         desc: '景点门票'
-      },{
+      }, {
         id: '0002',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/fc/b10a6b2e4f0fe102.png',
         desc: '万隆滑雪'
-      },{
+      }, {
         id: '0003',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png',
         desc: '故宫'
-      },{
+      }, {
         id: '0004',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/fc/b10a6b2e4f0fe102.png',
         desc: '静之湖滑雪'
-      },{
+      }, {
         id: '0005',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png',
         desc: '一日游'
-      },{
+      }, {
         id: '0006',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/67/9a1678221b8e0e02.png',
         desc: '古北水镇'
-      },{
+      }, {
         id: '0007',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png',
         desc: '泡温泉'
-      },{
+      }, {
         id: '0008',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png',
         desc: '中国马镇'
-      },{
+      }, {
         id: '0009',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/fc/b10a6b2e4f0fe102.png',
         desc: '北京滑雪'
-      },{
+      }, {
         id: '0010',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/fc/b10a6b2e4f0fe102.png',
         desc: '陶然亭冰雪'
