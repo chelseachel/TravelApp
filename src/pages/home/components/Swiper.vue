@@ -42,7 +42,7 @@ export default {
     overflow:hidden
     width: 100%
     height: 0
-    padding-bottom: 31.25%
+    padding-bottom: 26.7%
     background: #eee
     // height: 31.25vw 浏览器兼容性
     swiper-pagination-bullet-active
