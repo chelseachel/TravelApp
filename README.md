@@ -10,7 +10,7 @@
   * fastclick
 
 ### Commit header
-* 完成header区域<br>
+* 完成首页header区域<br>
 * 使用iconfont<br>
 * 采用stylus写css
   * variables.styl
@@ -22,9 +22,13 @@
 * ‘>>>’ 在<style scoped>下实现CSS样式穿透<br>
 
 ### Commit icons
-* 实现图标区域的布局<br>
+* 实现首页图标区域的布局<br>
 * 数据分页逻辑：通过计算把每8个图标分配到一个页面<br>
 * 分页通过swiper展示<br>
+
+### Commit featured
+* 实现首页猜你喜欢组件开发<br>
+* 实现首页周末去哪儿组件开发<br>
 
 ## Project setup
 ```
