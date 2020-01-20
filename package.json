@@ -10,9 +10,11 @@
   "dependencies": {
     "core-js": "^3.4.4",
     "fastclick": "^1.0.6",
+    "jquery": "^3.4.1",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
     "vue": "^2.6.10",
+    "vue-awesome-swiper": "^2.6.7",
     "vue-router": "^3.1.5"
   },
   "devDependencies": {
@@ -33,7 +35,9 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "indent": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
