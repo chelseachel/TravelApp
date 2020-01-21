@@ -4,6 +4,7 @@
 
 ### 前期准备：
 * 配置router路由
+  * Vue-cli 3.0自行创建一个router.js
 * 项目代码初始化：
   * reset.css
   * border.css
@@ -31,10 +32,11 @@
 * 实现首页猜你喜欢组件开发<br>
 * 实现首页周末去哪儿组件开发<br>
 
-### Ajax
+### Ajax获取首页数据
 * axios实现数据（模拟数据）请求：<br>
-利用vue中 webpack-dev-server 提供的proxy代理功能，在 vue.config.js 中配置，转发数据请求（把对 /api 下面json文件的请求路径替换至本地的模拟数据文件夹下）<br>
+  * 利用vue中 webpack-dev-server 提供的proxy代理功能，在 vue.config.js 中配置，转发数据请求（把对 /api 下面json文件的请求路径替换至本地的模拟数据文件夹下）<br>
 记得在 .gitignore 文件中添加模拟数据的文件夹路径
+* 将home组件所获取的json数据分发到每个子组件，实现首页父子组件传值
 
 ## Project setup
 ```

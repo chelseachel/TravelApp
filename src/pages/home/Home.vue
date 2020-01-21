@@ -38,8 +38,8 @@
         axios.get('/api/index.json')
           .then(this.getHomeInfoSucc) // axios返回一个promise对象
       },
-      getHomeInfoSucc (result) {
-        result = result.data //获取到对象的数据
+      getHomeInfoSucc (res) {
+        const result = res.data //获取到对象的数据
         if (result.ret && result.data) {
           const data = result.data
           this.city = data.city
@@ -48,7 +48,7 @@
           this.featuredList = data.featuredList
           this.weekendList = data.weekendList
         }
-        console.log(result);
+        // console.log(result);
       }
     },
     mounted () {
