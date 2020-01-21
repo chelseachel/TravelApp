@@ -10,7 +10,7 @@
   * border.css
   * fastclick
 
-### Commit header
+### Home header
 * 完成首页header区域<br>
 * 使用iconfont<br>
 * 采用stylus写css
@@ -18,17 +18,17 @@
   * mixins.styl  // CSS封装
 * 在 vue.config.js 中配置了路径名的简写替换
 
-### Commit swiper
+### Home swiper
 * 实现首页轮播图<br>
 * 使用vue-awesome-swiper<br>
 * ‘>>>’ 在<style scoped>下实现CSS样式穿透<br>
 
-### Commit icons
+### Home icons
 * 实现首页图标区域的布局<br>
 * 数据分页逻辑：通过计算把每8个图标分配到一个页面<br>
 * 分页通过swiper展示<br>
 
-### Commit featured
+### Home featured
 * 实现首页猜你喜欢组件开发<br>
 * 实现首页周末去哪儿组件开发<br>
 
@@ -37,6 +37,9 @@
   * 利用vue中 webpack-dev-server 提供的proxy代理功能，在 vue.config.js 中配置，转发数据请求（把对 /api 下面json文件的请求路径替换至本地的模拟数据文件夹下）<br>
 记得在 .gitignore 文件中添加模拟数据的文件夹路径
 * 将home组件所获取的json数据分发到每个子组件，实现首页父子组件传值
+
+### City header
+* 完成City页面header与搜索框的布局
 
 ## Project setup
 ```
