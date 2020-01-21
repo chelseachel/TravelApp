@@ -15,6 +15,7 @@
 * 采用stylus写css
   * variables.styl
   * mixins.styl  // CSS封装
+* 在 vue.config.js 中配置了路径名的简写替换
 
 ### Commit swiper
 * 实现首页轮播图<br>
@@ -29,6 +30,11 @@
 ### Commit featured
 * 实现首页猜你喜欢组件开发<br>
 * 实现首页周末去哪儿组件开发<br>
+
+### Ajax
+* axios实现数据（模拟数据）请求：<br>
+利用vue中 webpack-dev-server 提供的proxy代理功能，在 vue.config.js 中配置，转发数据请求（把对 /api 下面json文件的请求路径替换至本地的模拟数据文件夹下）<br>
+记得在 .gitignore 文件中添加模拟数据的文件夹路径
 
 ## Project setup
 ```

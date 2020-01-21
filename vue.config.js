@@ -7,10 +7,20 @@ function resolve(dir) {
 module.exports = {
     // 基本路径
     publicPath: './',
+    // 转达ajax数据请求
+    
      /* webpack-dev-server 相关配置 */
     devServer: {
         port: 8080,
-        open: true
+        open: true,
+        proxy: {
+            '/api': {
+                target: 'http://localhost:8080',
+                pathRewrite: {
+                    '^/api': '/mock'
+                }
+            }
+        }
     },
     // webpack配置
     configureWebpack: {
