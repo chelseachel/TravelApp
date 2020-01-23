@@ -42,6 +42,17 @@
 ### City header
 * 完成City页面header与搜索框的布局
 
+### City list
+* 城市列表布局
+* 结合BetterScroll插件实现列表滚动效果
+  * 通过 $refs 获取用ref属性注册的DOM对象
+* axios获取页面动态数据
+* 字母表定位
+  * 兄弟组件间联动
+  * watch属性里侦听字母点击的变化
+* 监听字母表滚动事件
+  * 函数节流，设定timer控制函数执行频率
+
 ## Project setup
 ```
 npm install
