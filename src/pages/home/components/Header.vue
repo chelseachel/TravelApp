@@ -55,7 +55,7 @@ export default {
     .header-right
       float: right
       text-align: center
-      margin-right: .1rem
+      margin-right: .16rem
       color: #fff
       .iconarrow_down
         position: relative

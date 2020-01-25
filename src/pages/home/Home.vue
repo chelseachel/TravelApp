@@ -15,6 +15,7 @@
   import HomeFeatured from './components/Featured.vue'
   import HomeWeekend from './components/Weekend.vue'
   import axios from 'axios'
+  import { mapState } from 'vuex'
   export default {
     name: 'Home',
     components: {
@@ -26,15 +27,19 @@
     },
     data () {
       return {
+        lastcity: '',
         swiperList: [],
         iconList: [],
         featuredList: [],
         weekendList: []
       }
     },
+    computed: {
+      ...mapState(['city'])
+    },
     methods: {
       getHomeInfo () {
-        axios.get('/api/index.json')
+        axios.get('/api/index.json?city=' + this.city)
           .then(this.getHomeInfoSucc) // axios返回一个promise对象
       },
       getHomeInfoSucc (res) {
@@ -50,7 +55,14 @@
       }
     },
     mounted () {
+      this.lastCity = this.city
       this.getHomeInfo()
+    },
+    activated () {
+      if (this.lastCity !== this.city) {
+        this.lastCity = this.city
+        this.getHomeInfo()
+      }
     }
   }
 </script>
