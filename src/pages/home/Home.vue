@@ -1,6 +1,6 @@
 <template>
   <div>
-    <home-header :city="city"></home-header>
+    <home-header></home-header>
     <home-swiper :list="swiperList"></home-swiper>
     <home-icons :list="iconList"></home-icons>
     <home-featured :list="featuredList"></home-featured>
@@ -26,7 +26,6 @@
     },
     data () {
       return {
-        city: '',
         swiperList: [],
         iconList: [],
         featuredList: [],
@@ -42,7 +41,6 @@
         const result = res.data //获取到对象的数据
         if (result.ret && result.data) {
           const data = result.data
-          this.city = data.city
           this.swiperList = data.swiperList
           this.iconList = data.iconList
           this.featuredList = data.featuredList

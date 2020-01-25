@@ -53,6 +53,22 @@
 * 监听字母表滑动事件
   * 函数节流，设定timer控制函数执行频率
 
+### 搜索逻辑
+* 匹配输入文字 v-model=“keyword”
+* 没有匹配数据的时候显示提示
+
+### Vuex实现数据共享
+* 数据存储在 this.$store.state 里
+* 点击列表会把数据传给Vuex的store，通过commit方法调用mutations去改变数据
+* 点击列表城市时页面跳转回到首页
+  * this.$router.push('/')
+
+* Vuex的深入使用
+  * localStorage本地存储（html5提供的新api，实现类似cookie的功能）
+  * js内容拆分
+  * 使用mapState和mapMutations辅助函数映射store里的数据
+
+
 ## Project setup
 ```
 npm install
