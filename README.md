@@ -68,9 +68,9 @@
   * js内容拆分
   * 使用mapState和mapMutations辅助函数映射store里的数据
 
-* 使用<keep-alive>缓存内容，避免页面反复渲染
-  * 此时组件被激活时，会触发activated生命周期钩子函数，
-    * 判断城市是否改变，若改变则重新发送ajax请求
+### 使用\<keep-alive>缓存内容，避免页面反复渲染
+  * 此时组件被激活时，会触发activated生命周期钩子函数
+  * 判断城市是否改变，若改变则重新发送ajax请求
 
 
 ## Project setup
