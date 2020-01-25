@@ -64,7 +64,7 @@
   * this.$router.push('/')
 
 * Vuex的深入使用
-  * localStorage本地存储（html5提供的新api，实现类似cookie的功能）
+  * localStorage本地存储（html5提供的api，实现类似cookie的功能）
   * js内容拆分
   * 使用mapState和mapMutations辅助函数映射store里的数据
 
