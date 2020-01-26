@@ -2,7 +2,7 @@
   <div>
     <div class="featured-title">猜你喜欢</div>
     <ul>
-      <li 
+      <router-link tag="li" :to="'/detail/' + item.id"
       class="featured-item border-bottom" 
       v-for="item of list" 
       :key="item.id"
@@ -12,8 +12,8 @@
           <p class="item-title">{{item.title}}</p>
           <p class="item-desc">{{item.desc}}</p>
           <button class="item-button">详情</button>
-          </div>
-        </li>
+        </div>
+      </router-link>
     </ul>
   </div>
 </template>

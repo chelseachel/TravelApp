@@ -10,7 +10,7 @@
     <router-link to="/city">
       <div class="header-right">
         {{this.city}}
-        <span class="iconfont iconarrow_down"></span>
+        <span class="iconfont iconunfold"></span>
       </div>
     </router-link>
   </div>
@@ -57,9 +57,10 @@ export default {
       text-align: center
       margin-right: .16rem
       color: #fff
-      .iconarrow_down
+      .iconunfold
         position: relative
         right: .04rem
         bottom: .04rem
         font-size: .2rem
+        font-weight: 600
 </style>

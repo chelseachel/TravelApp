@@ -57,20 +57,20 @@
 * 匹配输入文字 v-model=“keyword”
 * 没有匹配数据的时候显示提示
 
-### Vuex实现数据共享
+### Vuex
 * 数据存储在 this.$store.state 里
 * 点击列表会把数据传给Vuex的store，通过commit方法调用mutations去改变数据
 * 点击列表城市时页面跳转回到首页
   * this.$router.push('/')
-
-* Vuex的深入使用
-  * localStorage本地存储（html5提供的api，实现类似cookie的功能）
-  * js内容拆分
-  * 使用mapState和mapMutations辅助函数映射store里的数据
+* localStorage本地存储（html5提供的api，实现类似cookie的功能）
+* js内容拆分
+* 使用mapState和mapMutations辅助函数映射store里的数据
 
 ### 使用\<keep-alive>缓存内容，避免页面反复渲染
   * 此时组件被激活时，会触发activated生命周期钩子函数
   * 判断城市是否改变，若改变则重新发送ajax请求
+
+### 画廊组件拆分
 
 
 ## Project setup
