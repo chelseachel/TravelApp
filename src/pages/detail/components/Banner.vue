@@ -15,7 +15,7 @@
   </div>
 </template>
 
-<script type="text/javascript">
+<script>
 import commonGallery from 'common/gallery/Gallery'
 export default {
   name: 'Banner',

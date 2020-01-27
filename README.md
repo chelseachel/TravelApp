@@ -71,7 +71,8 @@
   * 判断城市是否改变，若改变则重新发送ajax请求
 
 ### 画廊组件拆分
-
+  * CSS样式穿透修改swiper元素的属性
+  * Header随滚动改变opacity，实现渐隐渐显效果
 
 ## Project setup
 ```
