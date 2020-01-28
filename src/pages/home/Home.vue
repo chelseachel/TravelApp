@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div>
     <home-header></home-header>
     <home-swiper :list="swiperList"></home-swiper>

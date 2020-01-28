@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: 'Header',
+  name: 'DetailHeader',
   data () {
     return {
       showAbs: true,
@@ -25,6 +25,7 @@ export default {
   },
   methods: {
     handleScroll () {
+      console.log('scroll');
       const scrollTop = document.documentElement.scrollTop
       if(scrollTop > 60) {
         let opacity = scrollTop / 140
@@ -35,10 +36,10 @@ export default {
       }
     }
   },
-  activated () {
+  created () {
     window.addEventListener('scroll', this.handleScroll)
   },
-  deactivated () {
+  beforeDestroy () {
     window.removeEventListener('scroll', this.handleScroll)
   }
 }
@@ -60,6 +61,7 @@ export default {
       color: #fff
       font-size: .4rem
   .header-fixed
+    z-index: 10
     position: fixed
     top: 0
     left: 0
