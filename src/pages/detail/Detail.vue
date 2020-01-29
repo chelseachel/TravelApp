@@ -12,7 +12,7 @@
         门票
       </div>
       <detail-list :list="categoryList"></detail-list>
-      <detail-comment></detail-comment>
+      <detail-comments :list="commentList"></detail-comments>
     </div>
   </div>
 </template>
@@ -22,7 +22,7 @@ import DetailBanner from './components/Banner.vue'
 import DetailHeader from './components/Header.vue'
 import DetailDescribe from './components/Describe.vue'
 import DetailList from './components/List.vue'
-import DetailComment from './components/Comment.vue'
+import DetailComments from './components/Comments.vue'
 import axios from 'axios'
 export default {
   name: 'Detail',
@@ -31,14 +31,15 @@ export default {
     DetailHeader,
     DetailDescribe,
     DetailList,
-    DetailComment
+    DetailComments
   },
   data () {
     return {
       sightName: '',
       bannerImg: '',
       gallaryImgs: [],
-      categoryList: []
+      categoryList: [],
+      commentList: []
     }
   },
   methods: {
@@ -57,6 +58,7 @@ export default {
         this.bannerImg = data.bannerImg
         this.gallaryImgs = data.gallaryImgs
         this.categoryList = data.categoryList
+        this.commentList = data.commentList
       }
     }
     
@@ -70,7 +72,7 @@ export default {
 <style lang="stylus" scoped>
 @import '~styles/variables.styl'
   .content
-    height: 20rem
+    height: 18rem
     .tickets-title
       overflow: hidden
       height: .86rem

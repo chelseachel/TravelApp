@@ -3,7 +3,7 @@
     <div>
      <span class="iconfont iconpicture_fill"></span>
      查看景点简介及开放时间
-     <div class="iconfont iconreturn"></div>
+     <div class="iconfont iconenter"></div>
       </div>    
   </div>
 </template>
@@ -26,11 +26,9 @@ export default {
     .iconpicture_fill
       margin-left: .2rem
       margin-right: .06rem
-    .iconreturn
+    .iconenter
       float: right
       margin-right: .2rem
-      transform: rotate(180deg)
-      transform-origin: 50% 50%
       font-size: .4rem
       color: #ccc
 </style>

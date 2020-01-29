@@ -67,17 +67,28 @@
 * 使用mapState和mapMutations辅助函数映射store里的数据
 
 ### 使用\<keep-alive>缓存内容，避免页面反复渲染
-  * 组件被激活时，会触发activated生命周期钩子函数
-  * 判断城市是否改变，若改变则重新发送ajax请求
+* 组件被激活时，会触发activated生命周期钩子函数
+* 判断城市是否改变，若改变则重新发送ajax请求
 
-### 详情页
-  * 画廊组件拆分
-    * CSS样式穿透修改swiper元素的属性
-  * Header随滚动改变opacity，实现渐隐渐显效果
-  * 在deactivated钩子中对全局对象事件进行解绑
+### Detail banner & header
+* 画廊组件拆分
+  * CSS样式穿透修改swiper元素的属性
+* Header随滚动改变opacity，实现渐隐渐显效果
+* 在deactivated钩子中对全局对象事件进行解绑
+
+### Detail list
+* 使用递归组件实现列表
+
+### Detail comments
+* 评论组件拆分
+  * 绑定父组件中的动态数据
+  * 组件收起/展开状态切换：根据条件切换元素的 class，使用三元表达式
 
 ### 实现部分页面滚动历史
 通过为路由定义的meta字段，实现在hash模式下返回到上次滚动位置<br>
+
+
+
 
 ## Project setup
 ```

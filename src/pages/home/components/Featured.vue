@@ -55,7 +55,7 @@ export default {
         ellipsis()
       .item-button
         margin-top:.2rem
-        background: #ff9300
+        background: #ffb436
         border-radius: .06rem
         padding: .02rem .16rem
         color: #fff
