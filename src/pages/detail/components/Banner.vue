@@ -7,22 +7,29 @@
         <div class="banner-number"><span class="iconfont iconpicture_fill"></span>{{this.gallaryImgs.length}}</div>
         </div>
     </div>
-    <common-gallery 
-      :imgs="gallaryImgs" 
-      v-show="showGallery"
-      @close="handleGalleryClose"
-    ></common-gallery>
+    <fade-animation>
+      <common-gallery 
+        :imgs="gallaryImgs" 
+        v-show="showGallery"
+        @close="handleGalleryClose"
+      ></common-gallery>
+    </fade-animation>
   </div>
 </template>
 
 <script>
 import commonGallery from 'common/gallery/Gallery'
+import FadeAnimation from 'common/fade-animation/FadeAnimation'
 export default {
   name: 'DetailBanner',
   props: {
     sightName: String,
     bannerImg: String,
     gallaryImgs: Array
+  },
+  components: {
+    commonGallery,
+    FadeAnimation
   },
   data () {
     return {
@@ -36,9 +43,6 @@ export default {
     handleGalleryClose () {
       this.showGallery = false
     }
-  },
-  components: {
-    commonGallery
   }
 }
 </script>
