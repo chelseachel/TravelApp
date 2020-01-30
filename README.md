@@ -73,6 +73,7 @@
 ### Detail banner & header
 * 画廊组件拆分
   * CSS样式穿透修改swiper元素的属性
+  * 另创建过渡动画组件，内部slot，为画廊组件添加opacity过渡效果
 * Header随滚动改变opacity，实现渐隐渐显效果
 * 在beforeDestroy钩子中对全局对象事件进行解绑
 
