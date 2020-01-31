@@ -62,7 +62,8 @@ export default {
   mounted () {
     const options = {
       click: true,
-      tap: true
+      tap: true,
+      mouseWheel: true
     }
     this.scroll = new BScroll(this.$refs.search, options)
   }

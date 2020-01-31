@@ -64,7 +64,8 @@ export default {
   mounted () {
     const options = {
       click: true,
-      tap: true
+      tap: true,
+      mouseWheel: true
     }
     this.scroll = new BScroll(this.$refs.wrapper, options)
   },
@@ -74,8 +75,10 @@ export default {
         const element = this.$refs[this.letter][0] //获取到字母对应的同字母的区域 //注意：循环输出的ref获取到的是一个数组
         this.scroll.scrollToElement(element) //BetterScroll滚动区自动定位到某个元素
       }
-      
     }
+  },
+  activated () {
+    this.scroll.refresh()
   }
 }
 </script>
