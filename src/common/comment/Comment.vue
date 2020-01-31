@@ -13,7 +13,7 @@
         <span class="comment-date">{{content.commentDate}}</span>
       </div>     
     </div>
-    <div :class="unfold ? unfoldClass : foldClass">
+    <div :class="foldClass">
       {{content.commentContent}}
     </div>  
     <div class="comment-fold iconfont iconunfold" @click="handleFoldClick"></div>
@@ -30,14 +30,14 @@ export default {
   data () {
     return {
       unfold: false,
-      foldClass: "comment-content-fold",
-      unfoldClass: "comment-content-unfold"
+      foldClass: "comment-content-fold"
     }
   },
   methods: {
     handleFoldClick (e) {
       e.target.className = this.unfold ? 'comment-fold iconfont iconunfold' : 'comment-fold iconfont iconpackup'
       this.unfold = !this.unfold
+      this.foldClass = this.unfold ? "comment-content-unfold" : "comment-content-fold"
     }
   }
 }
