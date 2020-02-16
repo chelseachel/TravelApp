@@ -67,19 +67,21 @@ export default {
       height: 0
       padding-bottom: 25%
       .icon-img
+        // margin: 15% 25% 0 25%
+        // width: 50%
+        // height: 50%
         position: absolute
-        top: .3rem
-        right: .3rem
-        left: .3rem
-        bottom: .6rem 
-        text-align: center
+        top: 16%
+        right: 24%
+        left: 24%
+        bottom: 32%
         .icon-img-content
           height: 100%
       .icon-desc
         position: absolute
         right: 0
         left: 0
-        bottom: 0.1rem
+        bottom: 4%
         height: .4rem
         line-height: .4rem
         text-align: center
