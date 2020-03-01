@@ -13,7 +13,7 @@
           <p class="icon-desc">{{item.desc}}</p>
         </div> 
       </swiper-slide>
-      <div class="swiper-pagination"  slot="pagination"></div>
+      <div class="swiper-pagination" slot="pagination"></div>
    </swiper>
   </div>
 </template>
@@ -67,9 +67,6 @@ export default {
       height: 0
       padding-bottom: 25%
       .icon-img
-        // margin: 15% 25% 0 25%
-        // width: 50%
-        // height: 50%
         position: absolute
         top: 16%
         right: 24%

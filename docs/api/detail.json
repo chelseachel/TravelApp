@@ -1,0 +1,32 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "故宫(AAAAA景区)",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_600x330_f922b488.jpg",
+    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_r_800x800_6edd8174.jpg", "http://img1.qunarzz.com/sight/p0/1907/cd/cdd8448b61cd6042a3.img.jpg_r_800x800_e8f50aa2.jpg"],
+    "categoryList": [{
+        "title": "成人票",
+        "children": [{
+          "title": "成人联票",
+          "children": [{
+            "title": "钟表馆、珍宝馆门票"
+          }]
+        },{
+          "title": "成人大门票"
+        }]
+      }, {
+        "title": "学生票"
+      }, {
+        "title": "特惠票"
+      }],
+    "commentList": [{
+      "commentName": "随*啊",
+      "commentDate": "2017-12-30",
+      "commentContent": "参观故宫是来京必须要安排的行程，紫禁城的宏伟和惊艳超乎你想象，假装自己穿越时空，你走在乾隆皇帝走过的石板砖上，体验当年盛世的文化底蕴和奢华的生活～ 攻略1 提前网上购买门票，凭身份证直接进 攻略2 租讲解器，每个讲解器都是感应的，每个只讲解一遍，只有一个耳机，别想着两人共用的好事儿，哈哈哈 攻略3 周一闭馆，周末人居多，尽量安排工作日，若所有宫殿都想参观，就提早进去，不过我个人觉得没必要，参观代表性的中轴和个别妃子和慈禧的宫殿即可，建议预留至少大半天时间在里头 再来北京，还愿意去故宫~~"
+    }, {
+      "commentName": "三*3",
+      "commentDate": "2020-01-22",
+      "commentContent": "故宫气势恢宏，是建筑和文化的完美结合，宫内大殿众多房间无数，黄磊导游将历史，人物，建筑结合在一起，娓娓道来，不觉三小时一晃而过，犹如穿越了600年的历史，特别棒，建议首次来故宫而没有做功课的朋友找黄导。"
+    }]
+  }
+}
