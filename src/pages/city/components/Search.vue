@@ -56,6 +56,7 @@ export default {
           })
         }
         this.list = result
+        this.timer = null
       }, 100)
     }
   },
