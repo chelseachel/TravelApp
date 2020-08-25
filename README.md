@@ -2,9 +2,8 @@
 ## Vue开发去哪儿网单页面应用 (SPA)<br>
 去哪儿网景点门票核心页面
 
-### 前期准备：
+### 初始化：
 * 配置router路由
-  * Vue-cli 3.0自行创建一个router.js
 * 项目代码初始化：
   * reset.css
   * border.css
